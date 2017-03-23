@@ -78,8 +78,9 @@ descpachos%>%
   +   +     arrange(-freq) %>% View()
 #notése que hay un error con esta línea 
 
+#ejericcio7
+
 #ejercicio8
-filter(f,accion_principal== "REINSTALACION")
 
 
 #propuesta 2 ejercici1
