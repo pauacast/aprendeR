@@ -79,9 +79,14 @@ descpachos%>%
 #notése que hay un error con esta línea 
 
 #ejericcio7
+#¿Cómo harías para crear una dummy de "top_despacho" en la base?
+#lo que yo haría sería una funcion lógica en donde si el numero de frecuencia está en un rango entonces es de los más demandados
 
 #ejercicio8
-
+#nos aseguramos que el modo de termino sea una variable character
+f$accion_principal<-as.character(f$accion_principal)
+filter(f,accion_principal== "REINSTALACION")
+filter(f,accion_principal== "INDEMNIZACION")
 
 #propuesta 2 ejercici1
 
