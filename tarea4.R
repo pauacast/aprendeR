@@ -62,19 +62,6 @@ tablita[is.na(tablita)] <-0
 mutate(f,razon= c_total/min_ley)
 
 #ejercicio4
-df <- df %>%  mutate(monto_hextra_sem = na_function(otra_function(monto_hextra_sem))) %>%
-  mutate(monto_vac = na_function(otra_function(monto_vac))) %>%
-  mutate(monto_ag = na_function(otra_function(monto_ag))) %>%
- mutate(monto_indem = na_function(otra_function(monto_indem))) %>%
- mutate(monto_sal_caidos = na_function(otra_function(monto_sal_caidos))) %>%
-   mutate(monto_prima_antig = na_function(otra_function(monto_prima_antig))) %>%
- mutate(monto_prima_vac = na_function(otra_function(monto_prima_vac))) %>%
- mutate(monto_hextra_total = na_function(otra_function(monto_hextra_total))) %>%
-  mutate(monto_desc_sem= na_function(otra_function(monto_desc_sem))) %>%
-  mutate(monto_desc_ob= na_function(otra_function(monto_desc_ob))) %>%
-   mutate(monto_utilidades= na_function(otra_function(monto_utilidades)))
-
-  +df %>% select(contains("monto")) %>%  View()
 
 #ejercicio5
 f$hextra_sem <- as.numeric(f$hextra_sem)
